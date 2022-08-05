@@ -6,7 +6,10 @@ programa
 	inteiro soma = 0
 
 	para(inteiro i = 0; i < 500; i += 3){
-		soma = soma + i
+		se(i % 2 != 0){
+			soma += i
+			
+		}
 	}
 	
 	escreva(soma)
@@ -17,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 113; 
+ * @POSICAO-CURSOR = 125; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
