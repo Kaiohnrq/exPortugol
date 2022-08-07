@@ -13,7 +13,7 @@ programa
 				soma += num
 			}
 		}
-		escreva("a soma: 5", soma, "\nmedia: ", soma/(val - 1), "\n total", val)
+		escreva("a soma: ", soma, "\nmedia: ", soma/(val - 1), "\n total", val)
 	}
 }
 /* $$$ Portugol Studio $$$ 
